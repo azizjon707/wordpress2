@@ -1,17 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
-    
+
 }
-.container{
+
+.container {
     width: 1140px;
     margin: 0 auto;
 }
-.promo{background-image: url(../img/12.jpg);
+
+.promo {
+    background-image: url(../img/12.jpg);
 
     height: 800px;
     background-repeat: no-repeat;
@@ -20,10 +24,12 @@ body{
     text-align: center;
     padding-top: 38px;
 }
-.logo{
+
+.logo {
     margin-bottom: 53px;
 }
-.logo span{
+
+.logo span {
     display: block;
     color: white;
     text-transform: uppercase;
@@ -31,33 +37,37 @@ body{
     font-weight: 500px;
     margin-top: 10px;
 }
-.title_one{
+
+.title_one {
 
 
-       font-size: 41px;
-       font-weight: 900px;
-       color: #F9BF3B;
-       text-transform: uppercase;
+    font-size: 41px;
+    font-weight: 900px;
+    color: #F9BF3B;
+    text-transform: uppercase;
 }
 
 
-.title_two{
-     
-          font-size: 80px;
-          font-weight: 900px;
-          color: #FFFFFF;
-          text-transform: uppercase;
+.title_two {
+
+    font-size: 80px;
+    font-weight: 900px;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
-.promo p{
+
+.promo p {
     font-size: 21px;
     font-weight: 300px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     margin-top: 22px;
 }
-.promo p strong{
+
+.promo p strong {
     color: #F9BF3B;
 }
-.btn{
+
+.btn {
     background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
     width: 313px;
@@ -68,6 +78,32 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
     cursor: pointer;
-    font-family: font-family: 'Roboto Condensed', sans-serif;;
+    font-family: font-family 'Roboto Condensed', sans-serif;
 
-  }
+}
+
+.intensive {
+    background-color: #EFEFEF;
+    height: 603px;
+    padding: 88px 0 71px;
+    text-align: center;
+}
+
+.intensive h2 {
+    font-weight: 400px;
+    font-size: 30px;
+    color:#252525;
+    text-transform: uppercase;
+}
+.line{
+    display: block;
+    width: 220px;
+    height: 7px;
+    background:#F9BF3B;
+    margin: 18px auto;
+}
+.intensive h3{
+    font-weight: 400px;
+    font-size: 23px;
+    color: #4A4A4A;
+}
